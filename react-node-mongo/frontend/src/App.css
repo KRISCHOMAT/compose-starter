@@ -1,0 +1,45 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.input {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+}
+
+.input input {
+  height: 25px;
+}
+
+.kitten {
+  border: 1px solid;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.kittens {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
